@@ -32,15 +32,6 @@ Usage
 
 You need to declare a char field of at least size 7::
 
-    _columns = {
-        'color': fields.char(
-            u"Couleur",
-            help=u"Toutes couleur valid css, exemple blue ou #f57900"
-        ),
-    }
-
-    OR
-
     color = fields.Char(
         string="Color",
         help="Choose your color"
